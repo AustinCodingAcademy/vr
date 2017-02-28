@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.2.7/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+      <!-- <a-asset-item id="motorcycle" src="models/motorcycle/model.gltf"></a-asset-item> -->
+      <a-asset-item id="lamp" src="models/lamp/model.gltf"></a-asset-item>
+      <!-- <a-asset-item id="kitchen" src="models/kitchen/model.gltf"></a-asset-item> -->
+      <!-- <a-asset-item id="room" src="models/room/model.gltf"></a-asset-item> -->
+      <!-- <a-asset-item id="brainstem" src="https://cdn.aframe.io/test-models/models/brainstem/BrainStem.gltf"></a-asset-item> -->
+    </a-assets>
+    <a-grid></a-grid>
+    <a-entity position="0 0 -1">
+      <a-entity gltf-model="#lamp" position="0 1 0"></a-entity>
+    </a-entity>
+  </a-scene>
+
+
+
+</body>
